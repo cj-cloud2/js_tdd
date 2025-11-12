@@ -39,8 +39,8 @@ Open VSCode and create your project folder structure:
 ```bash
 # Open terminal in VSCode (Ctrl+` or View > Terminal)
 # Create main project directory
-mkdir tdd-labs-js
-cd tdd-labs-js
+mkdir tdd-app-root
+cd tdd-app-root
 ```
 
 ```bash
