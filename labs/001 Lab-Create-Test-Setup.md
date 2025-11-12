@@ -194,7 +194,7 @@ mkdir -p basic-js-tdd/tests
 Your project structure should now look like this:
 
 ```
-tdd-labs-js/
+tdd-app-root/
   ├── basic-js-tdd/
   │    ├── src/
   │    └── tests/
@@ -344,41 +344,5 @@ You can add more useful scripts to your `package.json`:[^9][^2]
 - `npm run test:watch` - Run tests in watch mode (re-runs on file changes)
 - `npm run test:coverage` - Generate code coverage report
 - `npm run test:verbose` - Show detailed test output
-
-***
-
-## Project Structure for Future Labs
-
-This project is designed to accommodate future testing labs. Here's how to organize:
-
-```
-tdd-labs-js/                    # Main project (current)
-  ├── basic-js-tdd/             # Lab 001 (current lab)
-  │    ├── src/
-  │    │    └── sum.js
-  │    └── tests/
-  │         └── sum.test.js
-  ├── advanced-js-tdd/          # Lab 002 (future)
-  ├── dom-manipulation-tdd/     # Lab 003 (future)
-  ├── jest.config.js
-  ├── package.json
-  └── node_modules/
-
-react-js-tdd/                   # Future React project
-  ├── component-testing/
-  ├── jest.config.js
-  └── package.json
-
-vue-js-tdd/                     # Future Vue project
-  ├── component-testing/
-  ├── jest.config.js
-  └── package.json
-
-angular-js-tdd/                 # Future Angular project
-  ├── component-testing/
-  ├── jest.config.js
-  └── package.json
-```
-
 
 ***
